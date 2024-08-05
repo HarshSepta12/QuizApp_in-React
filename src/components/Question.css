@@ -1,0 +1,42 @@
+.items{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     height: 100vh;
+}
+.selected {
+     background-color: green;
+     color: white;
+     
+   }
+   
+   li {
+     margin: 10px 0;
+     padding: 10px;
+     cursor: pointer;
+     background-color: #f4f4f4;
+     list-style: none;
+     border: 1px solid black;
+     /* border-radius: 6px; */
+     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+     margin-top: 10px;
+   }
+   
+   li:hover {
+     background-color: #ddd;
+   }
+   
+   .button {
+     background-color: #0dbc72;
+     border-radius: 20px;
+     width: 20%;
+     cursor: pointer;
+   }
+   
+   .button-disable {
+     border-radius: 20px;
+     width: 20%;
+     cursor: not-allowed;
+   }
+   
